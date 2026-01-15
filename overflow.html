@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        .box{
+            width: 300px;
+            height: 300px;
+            border: 3px solid steelblue;
+            overflow: auto;
+            overflow-x: hidden;
+
+        }
+
+        /* #box-1{
+            overflow: auto;
+            overflow-x: hidden;
+        } */
+
+        .ellipsis{
+            width: 200px;
+            border: 2px solid steelblue;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <p title="I am a Serious learner. I am investing at least 6-8hrs every single day.
+            No gap at all." class="ellipsis">I am a Serious learner. I am investing at least 6-8hrs every single day. No gap at all.
+        </p>
+    </header>
+
+    <section>
+        <div id="box-1" class="box">
+            <h3>My Text Box 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui consequuntur dolor asperiores possimus odit a, assumenda unde ea aspernatur non veritatis iure sit nostrum beatae earum tenetur reiciendis quia recusandae maxime quidem ex autem! Iure asperiores quae quisquam tempore mollitia soluta, voluptatibus veniam, culpa totam sint perferendis iste. Architecto totam iure nesciunt, vel quo fuga quos ipsa quasi nostrum, quia autem laborum laboriosam expedita, incidunt consequatur eum provident dignissimos odio! Eius temporibus quisquam perspiciatis aspernatur expedita ipsa, laudantium voluptatem voluptate voluptatibus minus provident. Cupiditate odit officiis unde vitae illo praesentium voluptatibus voluptatum! Deleniti neque ab modi quae nobis, facilis consequatur repellat doloribus incidunt possimus placeat! Omnis perferendis quod aliquam architecto et, quis esse ratione? Debitis delectus, nobis fugiat, rem minima laudantium id voluptate nulla a aut tempore quaerat voluptas unde omnis quibusdam natus asperiores? Odio iusto unde laudantium magni dolore, quibusdam voluptatibus neque quasi ipsa, excepturi distinctio? Officiis laudantium, dolor doloribus itaque quas eaque dolores exercitationem cupiditate iusto accusantium aliquam, perspiciatis voluptas alias ducimus dolorem molestiae officia facilis asperiores dolore a, autem molestias quia? Architecto neque esse voluptatum nostrum praesentium modi culpa. Perspiciatis, iusto quaerat. Tempore placeat fuga voluptatum quis omnis! Omnis voluptas hic necessitatibus libero vitae! Eaque, vitae ullam.</p>
+        </div>
+        <div class="box">
+            <h3>My Text Box 2</h3>
+            <p>Tempore quam vero, esse nemo labore, id, illo maiores pariatur non reprehenderit laudantium natus. Odio blanditiis molestias velit culpa cupiditate omnis ipsum tempore aspernatur rem? Ipsam aut nulla porro, consectetur aspernatur, molestiae enim delectus eos ducimus hic labore fugit vitae dolore repudiandae quia, distinctio maiores corporis tenetur dicta praesentium veniam laborum magnam! Voluptatum aliquam assumenda cum ipsum recusandae, repellat quae minus, illum quam nostrum ab neque libero, optio quia qui numquam tenetur iste nulla laudantium adipisci. Consectetur voluptate expedita, amet hic dolorum iusto ipsum accusantium, laboriosam praesentium velit, suscipit officia! Quod doloremque ullam qui, repellendus saepe voluptas architecto voluptatum laudantium optio blanditiis veniam sed illum nemo dicta eum amet distinctio nihil expedita mollitia. Iure eaque ipsa ut eligendi quas voluptates, beatae omnis impedit ea a eius quasi laboriosam officiis quia inventore id iusto nisi numquam? Quas officia ab doloribus modi ipsa placeat eaque dolorem voluptatem a earum fugiat qui maiores quae sit laboriosam, voluptate, ullam sapiente similique dolores molestias unde quod saepe sint porro! Provident animi ex in est voluptates hic omnis possimus dolorem, reprehenderit quae sed consequuntur? Corporis quis eos facere adipisci laborum alias, enim ab. Vitae amet ipsa suscipit voluptate sed consectetur exercitationem consequuntur, quam sunt cum assumenda?</p>
+        </div>
+
+        <div class="box">
+            <h3>Text Box 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis fugiat tenetur delectus aperiam corporis exercitationem, voluptates necessitatibus incidunt ea in.</p>
+        </div>
+    </section>
+</body>
+</html>
