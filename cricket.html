@@ -9,9 +9,8 @@
             border: 1px solid steelblue;
         }
 
-        .field:hover .bat{
-            transform: rotate(-60deg);
-            transform-origin: top right;
+        .bat{
+            transition: transform 0.1s ease-in;
         }
 
         .ball{
@@ -19,6 +18,27 @@
             width: 50px;
             border-radius: 50%;
             background-color: red;
+            position: relative;
+            left: 515px;
+            transition: transform 1s ease-out 0.1s;
+        }
+
+        .field:hover .bat{
+            transform: rotate(-60deg);
+            transform-origin: top right;
+        }
+
+        .field:hover .ball{
+            transform: translate(1000px, -500px);
+        }
+
+        .ball{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: red;
+            position: relative;
+            left: 515px;
         }
     </style>
 </head>
